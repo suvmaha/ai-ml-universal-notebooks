@@ -43,6 +43,11 @@ llm = get_llm()  # defaults to Ollama (in-cluster or local)
 |----------|---------------|
 | [langchain/hello-langchain.ipynb](langchain/hello-langchain.ipynb) | Build a chain, prompt template, streaming |
 
+### Ray
+| Notebook | What it covers |
+|----------|---------------|
+| [ray/hello-ray.ipynb](ray/hello-ray.ipynb) | Connect to the in-cluster RayCluster, run distributed tasks, parallel compute |
+
 ### RAG
 | Notebook | What it covers |
 |----------|---------------|
