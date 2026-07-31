@@ -38,6 +38,7 @@ llm = get_llm()  # defaults to Ollama (in-cluster or local)
 |----------|---------------|
 | [llm-backends/test-ollama.ipynb](llm-backends/test-ollama.ipynb) | Verify Ollama, run llama3.2, test embeddings |
 | [llm-backends/compare-cpu-3b-vs-gpu-70b.ipynb](llm-backends/compare-cpu-3b-vs-gpu-70b.ipynb) | Self-hosted 3B (CPU) vs 70B (GPU/L40S) side-by-side — quality + latency |
+| [llm-backends/ollama-cloud.ipynb](llm-backends/ollama-cloud.ipynb) | Ollama Cloud — run huge models (gpt-oss:120b) with no GPU, free tier (key via getpass) |
 
 ### LangChain
 | Notebook | What it covers |
